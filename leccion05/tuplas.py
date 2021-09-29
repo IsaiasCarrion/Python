@@ -18,4 +18,14 @@ for fruta in frutas:
     print(fruta, end=' ')
 
 #Cambiar valor tupla
-frutas[0] = 'Pera'
+#frutas[0] = 'Pera'
+frutaLista = list(frutas)
+frutaLista[0] = 'Pera'
+frutas = tuple(frutaLista)
+
+print('\n', frutas)
+
+#Eliminar tupla
+del frutas
+print(frutas)
+
