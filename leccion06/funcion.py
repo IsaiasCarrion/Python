@@ -4,3 +4,5 @@ def mi_funcion(nombre, apellido):
 
 mi_funcion('Isaias', 'Carrion')
 mi_funcion('Pibe', 'Gonzalez')
+
+mi_funcion('Maria', 'Gonzalez')
