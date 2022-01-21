@@ -15,8 +15,13 @@ class Persona:
         self.apellido = apellido
         self.edad = edad
 
+    @property
     def nombre(self):
         return self._nombre
+
+    # @nombre.setter
+    # def nombre(self, nombre):
+    #     self._nombre = nombre
 
     def mostrar_detalle(self):
         print(f'Persona: {self._nombre} {self.apellido} {self.edad}')
@@ -24,8 +29,9 @@ class Persona:
 
 # '44557766', 2, 3, 4, 5, m='manzana', p='pera'
 persona1 = Persona('Juan', 'Perez', 28, )
-print(persona1.nombre())
-
+print(persona1.nombre)
+persona1.nombre = 'Juan Carlos'
+print(persona1.nombre)
 
 # persona1.mostrar_detalle()
 #persona1._nombre = 'Juan Carlos'
