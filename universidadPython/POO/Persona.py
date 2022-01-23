@@ -32,9 +32,10 @@ class Persona:
     def mostrar_detalle(self):
         print(f'Persona: {self._nombre} {self._apellido} {self._edad}')
 
-# persona1 = Persona ( 'Juan','Perez', 28)
-# persona1.nombre = 'Juan Carlos'
-# print(persona1.nombre)
-# persona1.apellido = 'Lara'
-# persona1.edad = 30
+if __name__ == '__main__':
+    persona1 = Persona ( 'Juan','Perez', 28)
+    persona1.nombre = 'Juan Carlos'
+    print(persona1.nombre)
+    persona1.apellido = 'Lara'
+    persona1.edad = 30
 
