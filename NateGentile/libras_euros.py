@@ -14,3 +14,18 @@ texto_usuario = "Introduzca la cantidad de {} a convertir: "
 if opcion == "A":
     dinero = float(input(texto_usuario.format("dolares")))
     print(("Los Dolares a Euro son: {}").format(dinero * dolar_euro))
+
+elif opcion == "B":
+    dinero = float(input(texto_usuario.format("dolares")))
+    print(("Los Dolares a Euro son: {}").format(dinero * euro_dolar))
+
+elif opcion == "C":
+    dinero = float(input(texto_usuario.format("dolares")))
+    print(("Los Dolares a Euro son: {}").format(dinero * libra_euro))
+
+elif opcion == "D":
+    dinero = float(input(texto_usuario.format("dolares")))
+    print(("Los Dolares a Euro son: {}").format(dinero * euro_libra))
+
+else:
+    print("Las opciones ingresadas no son correctas")
