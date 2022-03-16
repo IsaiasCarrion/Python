@@ -15,7 +15,8 @@ map_objects = []
 
 # Generate random objects on the map
 while len(map_objects) < NUM_OF_MAP_OBJECTS:
-    new_position = [random.randint(0, MAP_WIDTH), random.randint(0, MAP_HEIGHT)]
+    new_position = [random.randint(
+        0, MAP_WIDTH), random.randint(0, MAP_HEIGHT)]
 
     if new_position not in map_objects and new_position != my_position:
         map_objects.append(new_position)
