@@ -46,3 +46,16 @@ class FiguraGeometrica(ABC):
 
     def _validar_valor(self, valor):
         return True if 0 < valor < 10 else False
+
+
+for ran in range(1, 101):
+    divisibleXTres = ran % 3 == 0
+    divisibleXCinco = ran % 5 == 0
+    if (divisibleXTres and divisibleXCinco):
+        print("FizzBuzz")
+    elif divisibleXTres:
+        print("Fizz")
+    elif divisibleXCinco:
+        print("Buzz")
+    else:
+        print(ran)
