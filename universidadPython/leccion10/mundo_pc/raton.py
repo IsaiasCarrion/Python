@@ -16,3 +16,5 @@ class Raton(DispositivoEntrada):
 
 raton1 = Raton('Hp', 'usb')
 print(raton1)
+raton2 = Raton("Acer", "Bluetooth")
+print(raton2)
