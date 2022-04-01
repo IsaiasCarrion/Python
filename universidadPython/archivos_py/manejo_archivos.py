@@ -1,8 +1,9 @@
 try:
-    archivo = open('prueba.txt', 'w')
+    archivo = open('prueba.txt', 'w', encoding='utf8')
     archivo.write('Agregamos texto al archivo\n')
     archivo.write('Adios')
-except expression as e:
+except Exception as e:
     print(e)
 finally:
     archivo.close()
+    # archivo.write('Nueva info')
